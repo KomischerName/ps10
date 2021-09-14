@@ -6,7 +6,7 @@ The Atlantis PS10 is a 10 key macropad with a rotary encoder.
 
 * Keyboard Maintainer: [KomischerName](https://github.com/KomischerName)
 * Hardware Supported: PCB 554959A_Y82-210120
-* Hardware Availability: ![AliExpress](https://de.aliexpress.com/item/1005002864357054.html?)
+* Hardware Availability: [AliExpress](https://de.aliexpress.com/item/1005002864357054.html?)
 
 Make example for this keyboard (after setting up your build environment):
 
