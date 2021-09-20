@@ -20,11 +20,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID    0xFEED
-#define PRODUCT_ID   0x0001
+#define VENDOR_ID    0x414B
+#define PRODUCT_ID   0x0015
 #define DEVICE_VER   0x0001
 #define MANUFACTURER Atlantis
-#define PRODUCT      ps10
+#define PRODUCT      PS10
 
 /* key matrix size */
 #define MATRIX_ROWS 5
@@ -55,7 +55,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #    define RGBLED_NUM 18
 #    define RGBLIGHT_LIMIT_VAL 200 /* The maximum brightness level */
 #    define RGBLIGHT_SLEEP  /* If defined, the RGB lighting will be switched off when the host goes to sleep */
-#    define RGBLIGHT_LAYERS
 #endif
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
