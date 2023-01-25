@@ -2,6 +2,12 @@
     "keyboard_name": "ps10",
     "url": "",
     "maintainer": "KomischerName",
+    "manufacturer": "Atlantis",
+    "usb": {
+        "vid": "0x414B",
+        "pid": "0x0015",
+        "device_version": "1.0.0"
+    },
     "width": 3,
     "height": 5,
     "layouts": {

@@ -19,13 +19,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "config_common.h"
 
-/* USB Device descriptor parameter */
-#define VENDOR_ID    0x414B
-#define PRODUCT_ID   0x0015
-#define DEVICE_VER   0x0001
-#define MANUFACTURER Atlantis
-#define PRODUCT      PS10
-
 /* key matrix size */
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 3
@@ -45,7 +38,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 #define MATRIX_ROW_PINS { F0, D5, B5, C6, C7 }
 #define MATRIX_COL_PINS { F6, F7, D3 }
-#define UNUSED_PINS
+//#define UNUSED_PINS
 
 /* COL2ROW, ROW2COL */
 #define DIODE_DIRECTION COL2ROW
@@ -58,4 +51,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #endif
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
-#define DEBOUNCE 0
+#define DEBOUNCE 10
